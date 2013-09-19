@@ -89,4 +89,16 @@ CKEDITOR.editorConfig = function( config )
       }
     }
   });
+  
+  config.format_tags = 'h2;h3;p';
+  config.toolbar =
+    [
+      ['Source'],
+      ['Undo','Redo','Cut','Copy','Paste','PasteText','PasteFromWord',],
+      ['Format'],
+      ['Bold','Italic','Underline','Strike'],
+      ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
+      ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
+      ['Link','Unlink','Table', 'Image', 'Attachment', 'Embed']
+    ];
 };
