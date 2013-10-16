@@ -90,7 +90,7 @@ CKEDITOR.editorConfig = function( config )
     }
   });
   
-  config.autoGrow_onStartup = true;
+  config.height = 500;
   config.format_tags = 'h2;h3;p';
   config.toolbar =
     [
