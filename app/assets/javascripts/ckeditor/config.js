@@ -100,7 +100,7 @@ CKEDITOR.editorConfig = function( config )
       ['Bold','Italic','Underline','Strike'],
       ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
       ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
-      ['Link','Unlink','Table', 'Image', 'Attachment', 'Embed'],
+      ['Link','Unlink','Table', 'Image', 'Attachment', 'Embed', 'Iframe'],
       ['Maximize']
     ];
 };
